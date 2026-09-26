@@ -4,9 +4,13 @@
 </picture>
 
 <div align="center">
-### 一个超级懒的二次元开发者
-听听歌、睡睡觉、发发呆、写代码
+  
+### 听冬酱
+一个超级懒的二次元开发者<br>
+听听歌、睡睡觉、发发呆、写写代码，玩玩小AI
+
 <br>
+
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white)
