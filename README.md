@@ -12,8 +12,8 @@
 
 <br>
 
-[![freelucky.net](https://img.shields.io/badge/freelucky.net-7aa2f7?style=flat-square&logo=rss&logoColor=white)](https://freelucky.net)
-[![tingdong105](https://img.shields.io/badge/tingdong105-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tingdong105)
+[![BLOG](https://img.shields.io/badge/BLOG-freelucky.net-7aa2f7?style=for-the-badge&logo=rss&logoColor=white)](https://freelucky.net)
+[![GITHUB](https://img.shields.io/badge/GITHUB-tingdong105-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tingdong105)
 
 <br>
 
