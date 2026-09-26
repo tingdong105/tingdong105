@@ -12,15 +12,7 @@
 
 <br>
 
-[![BLOG](https://img.shields.io/badge/BLOG-freelucky.net-7aa2f7?style=for-the-badge&logo=rss&logoColor=white)](https://freelucky.net)
-[![GITHUB](https://img.shields.io/badge/GITHUB-tingdong105-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tingdong105)
-
-<br>
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+[![BLOG](https://img.shields.io/badge/BLOG-freelucky.net-7aa2f7?style=flat-square&labelColor=0d1730&logo=rss&logoColor=9fd8ff)](https://freelucky.net)
+[![GITHUB](https://img.shields.io/badge/GITHUB-tingdong105-7aa2f7?style=flat-square&labelColor=0d1730&logo=github&logoColor=9fd8ff)](https://github.com/tingdong105)
 
 </div>
