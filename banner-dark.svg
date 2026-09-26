@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="听冬 · tingdong105">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#05080f"/>
+      <stop offset="0.55" stop-color="#0d1730"/>
+      <stop offset="1" stop-color="#17253f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.8" cy="0.08" r="0.78">
+      <stop offset="0" stop-color="#7ab6ff" stop-opacity="0.32"/>
+      <stop offset="0.55" stop-color="#7ab6ff" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#7ab6ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ice" x1="92" y1="0" x2="560" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9fd8ff"/>
+      <stop offset="1" stop-color="#c3a8ff"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      @keyframes drift { 0% { transform: translateY(-30px); opacity: 0 } 10% { opacity: .85 } 85% { opacity: .8 } 100% { transform: translateY(310px); opacity: 0 } }
+      @keyframes sweep { 0% { transform: translateX(-420px) } 100% { transform: translateX(1500px) } }
+      @keyframes breathe { 0%,100% { opacity: .55 } 50% { opacity: .95 } }
+      .s { animation: drift linear infinite }
+      .sw { animation: sweep 11s ease-in-out infinite }
+      .moon { animation: breathe 7s ease-in-out infinite }
+      @media (prefers-reduced-motion: reduce) { .s, .sw, .moon { animation: none; opacity: .5 } }
+    </style>
+  </defs>
+
+  <rect width="1280" height="340" fill="url(#bg)"/>
+  <rect width="1280" height="340" fill="url(#glow)"/>
+
+  <g opacity="0.07" fill="#cfe2ff">
+    <path d="M540,340 L700,188 L812,262 L968,150 L1120,300 L1280,196 L1280,340 Z"/>
+  </g>
+  <g opacity="0.05" fill="#e8f2ff">
+    <path d="M820,340 L930,244 L1040,306 L1180,214 L1280,282 L1280,340 Z"/>
+  </g>
+
+  <circle class="moon" cx="1088" cy="92" r="54" fill="#dbe9ff" opacity="0.10"/>
+  <circle cx="1088" cy="92" r="34" fill="#eaf2ff" opacity="0.16"/>
+  <circle cx="1100" cy="80" r="6" fill="#c9dcf5" opacity="0.18"/>
+
+  <text x="1252" y="306" text-anchor="end" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="230" fill="#ffffff" opacity="0.045">冬</text>
+
+  <g fill="#dbeaff">
+    <g class="s" style="animation-duration:13s">
+      <circle cx="96" cy="18" r="2.4" opacity="0.7"/>
+      <circle cx="248" cy="34" r="1.8" opacity="0.55"/>
+      <circle cx="420" cy="10" r="2.0" opacity="0.6"/>
+      <circle cx="612" cy="40" r="1.6" opacity="0.5"/>
+      <circle cx="806" cy="24" r="2.2" opacity="0.65"/>
+      <circle cx="988" cy="12" r="1.8" opacity="0.5"/>
+      <circle cx="1176" cy="30" r="2.0" opacity="0.6"/>
+    </g>
+    <g class="s" style="animation-duration:19s; animation-delay:-7s">
+      <circle cx="164" cy="26" r="1.5" opacity="0.45"/>
+      <circle cx="332" cy="8" r="2.2" opacity="0.6"/>
+      <circle cx="512" cy="30" r="1.7" opacity="0.5"/>
+      <circle cx="700" cy="14" r="1.5" opacity="0.42"/>
+      <circle cx="884" cy="44" r="2.0" opacity="0.55"/>
+      <circle cx="1064" cy="20" r="1.6" opacity="0.45"/>
+      <circle cx="1236" cy="6" r="2.4" opacity="0.6"/>
+    </g>
+    <g class="s" style="animation-duration:26s; animation-delay:-16s">
+      <circle cx="60" cy="6" r="1.6" opacity="0.4"/>
+      <circle cx="210" cy="46" r="2.0" opacity="0.5"/>
+      <circle cx="388" cy="22" r="1.5" opacity="0.4"/>
+      <circle cx="556" cy="4" r="2.2" opacity="0.55"/>
+      <circle cx="744" cy="34" r="1.7" opacity="0.45"/>
+      <circle cx="930" cy="10" r="1.5" opacity="0.4"/>
+      <circle cx="1112" cy="38" r="2.0" opacity="0.5"/>
+      <circle cx="1268" cy="18" r="1.6" opacity="0.42"/>
+    </g>
+  </g>
+
+  <g class="sw" opacity="0.5">
+    <rect x="0" y="-40" width="240" height="420" fill="url(#sweep)" transform="rotate(14 120 170)"/>
+  </g>
+
+  <g>
+    <text x="92" y="152" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="82" font-weight="700" fill="#f4f8ff" letter-spacing="4">听冬</text>
+    <text x="98" y="197" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="22" letter-spacing="8" fill="url(#ice)">tingdong105</text>
+    <rect x="94" y="221" width="232" height="2" rx="1" fill="url(#ice)" opacity="0.5"/>
+    <text x="94" y="263" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="20" fill="#a7bcd9">乱花渐欲迷人眼，浅草才能没马蹄</text>
+  </g>
+
+  <g font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="15">
+    <rect x="92" y="286" width="132" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#7ab6ff" stroke-opacity="0.32"/>
+    <text x="110" y="307" fill="#c9dcf5">Android 逆向</text>
+    <rect x="236" y="286" width="134" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#7ab6ff" stroke-opacity="0.32"/>
+    <text x="254" y="307" fill="#c9dcf5">Compose 开发</text>
+    <rect x="382" y="286" width="108" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#7ab6ff" stroke-opacity="0.32"/>
+    <text x="400" y="307" fill="#c9dcf5">玩机折腾</text>
+    <rect x="502" y="286" width="108" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#7ab6ff" stroke-opacity="0.32"/>
+    <text x="520" y="307" fill="#c9dcf5">AI 工具控</text>
+  </g>
+</svg>
