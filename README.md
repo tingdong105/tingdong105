@@ -5,13 +5,15 @@
 
 <div align="center">
 
-### 一个超级懒的二次元开发者
+### 一个超级懒的二次元开发者 ❀
 
-听歌、睡觉、写代码
+写 Android，也写点 Flutter<br>
+平时听歌、睡觉、瞎折腾
 
 <br>
 
-[freelucky.net](https://freelucky.net) &nbsp;·&nbsp; [@tingdong105](https://github.com/tingdong105)
+[![freelucky.net](https://img.shields.io/badge/freelucky.net-7aa2f7?style=flat-square&logo=rss&logoColor=white)](https://freelucky.net)
+[![tingdong105](https://img.shields.io/badge/tingdong105-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tingdong105)
 
 <br>
 
