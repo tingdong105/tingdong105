@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="听冬 · tingdong105">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-label="听冬 · tingdong105">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="340" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="380" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#05080f"/>
       <stop offset="0.55" stop-color="#0d1730"/>
       <stop offset="1" stop-color="#17253f"/>
@@ -20,7 +20,7 @@
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
     <style>
-      @keyframes drift { 0% { transform: translateY(-30px); opacity: 0 } 10% { opacity: .85 } 85% { opacity: .8 } 100% { transform: translateY(310px); opacity: 0 } }
+      @keyframes drift { 0% { transform: translateY(-30px); opacity: 0 } 10% { opacity: .85 } 85% { opacity: .8 } 100% { transform: translateY(350px); opacity: 0 } }
       @keyframes sweep { 0% { transform: translateX(-420px) } 100% { transform: translateX(1500px) } }
       @keyframes breathe { 0%,100% { opacity: .55 } 50% { opacity: .95 } }
       .s { animation: drift linear infinite }
@@ -30,19 +30,19 @@
     </style>
   </defs>
 
-  <rect width="1280" height="340" fill="url(#bg)"/>
-  <rect width="1280" height="340" fill="url(#glow)"/>
+  <rect width="1280" height="380" fill="url(#bg)"/>
+  <rect width="1280" height="380" fill="url(#glow)"/>
 
   <g opacity="0.07" fill="#cfe2ff">
-    <path d="M540,340 L700,188 L812,262 L968,150 L1120,300 L1280,196 L1280,340 Z"/>
+    <path d="M540,380 L700,228 L812,302 L968,190 L1120,340 L1280,236 L1280,380 Z"/>
   </g>
   <g opacity="0.05" fill="#e8f2ff">
-    <path d="M820,340 L930,244 L1040,306 L1180,214 L1280,282 L1280,340 Z"/>
+    <path d="M820,380 L930,284 L1040,346 L1180,254 L1280,322 L1280,380 Z"/>
   </g>
 
-  <circle class="moon" cx="1088" cy="92" r="54" fill="#dbe9ff" opacity="0.10"/>
-  <circle cx="1088" cy="92" r="34" fill="#eaf2ff" opacity="0.16"/>
-  <circle cx="1100" cy="80" r="6" fill="#c9dcf5" opacity="0.18"/>
+  <circle class="moon" cx="1088" cy="100" r="54" fill="#dbe9ff" opacity="0.10"/>
+  <circle cx="1088" cy="100" r="34" fill="#eaf2ff" opacity="0.16"/>
+  <circle cx="1100" cy="88" r="6" fill="#c9dcf5" opacity="0.18"/>
 
   <g fill="#dbeaff">
     <g class="s" style="animation-duration:13s">
@@ -76,14 +76,41 @@
   </g>
 
   <g class="sw" opacity="0.5">
-    <rect x="0" y="-40" width="240" height="420" fill="url(#sweep)" transform="rotate(14 120 170)"/>
+    <rect x="0" y="-60" width="240" height="500" fill="url(#sweep)" transform="rotate(14 120 190)"/>
   </g>
 
   <g>
-    <text x="92" y="152" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="82" font-weight="700" fill="#f4f8ff" letter-spacing="4">听冬</text>
-    <text x="98" y="197" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="22" letter-spacing="8" fill="url(#ice)">tingdong105</text>
-    <rect x="94" y="221" width="232" height="2" rx="1" fill="url(#ice)" opacity="0.5"/>
-    <text x="94" y="263" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="20" fill="#a7bcd9">乱花渐欲迷人眼，浅草才能没马蹄</text>
+    <text x="92" y="142" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="82" font-weight="700" fill="#f4f8ff" letter-spacing="4">听冬</text>
+    <text x="98" y="186" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="22" letter-spacing="8" fill="url(#ice)">tingdong105</text>
+    <rect x="94" y="210" width="232" height="2" rx="1" fill="url(#ice)" opacity="0.5"/>
+    <text x="94" y="250" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="20" fill="#a7bcd9">乱花渐欲迷人眼，浅草才能没马蹄</text>
   </g>
 
+  <g>
+    <g>
+      <rect x="92" y="274" width="88" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#7ab6ff" stroke-opacity="0.32"/>
+      <g transform="translate(106,282) scale(0.667)"><path fill="#F89820" d="M11.915 0 11.7.215C9.515 2.4 7.47 6.39 6.046 10.483c-1.064 1.024-3.633 2.81-3.711 3.551-.093.87 1.746 2.611 1.55 3.235-.198.625-1.304 1.408-1.014 1.939.1.188.823.011 1.277-.491a13.389 13.389 0 0 0-.017 2.14c.076.906.27 1.668.643 2.232.372.563.956.911 1.667.911.397 0 .727-.114 1.024-.264.298-.149.571-.33.91-.5.68-.34 1.634-.666 3.53-.604 1.903.062 2.872.39 3.559.704.687.314 1.15.664 1.925.664.767 0 1.395-.336 1.807-.9.412-.563.631-1.33.72-2.24.06-.623.055-1.32 0-2.066.454.45 1.117.604 1.213.424.29-.53-.816-1.314-1.013-1.937-.198-.624 1.642-2.366 1.549-3.236-.08-.748-2.707-2.568-3.748-3.586C16.428 6.374 14.308 2.394 12.13.215zm.175 6.038a2.95 2.95 0 0 1 2.943 2.942 2.95 2.95 0 0 1-2.943 2.943A2.95 2.95 0 0 1 9.148 8.98a2.95 2.95 0 0 1 2.942-2.942zM8.685 7.983a3.515 3.515 0 0 0-.145.997c0 1.951 1.6 3.55 3.55 3.55 1.95 0 3.55-1.598 3.55-3.55 0-.329-.046-.648-.132-.951.334.095.64.208.915.336a42.699 42.699 0 0 1 2.042 5.829c.678 2.545 1.01 4.92.846 6.607-.082.844-.29 1.51-.606 1.94-.315.431-.713.651-1.315.651-.593 0-.932-.27-1.673-.61-.741-.338-1.825-.694-3.792-.758-1.974-.064-3.073.293-3.821.669-.375.188-.659.373-.911.5s-.466.2-.752.2c-.53 0-.876-.209-1.16-.64-.285-.43-.474-1.101-.545-1.948-.141-1.693.176-4.069.823-6.614a43.155 43.155 0 0 1 1.934-5.783c.348-.167.749-.31 1.192-.425zm-3.382 4.362a.216.216 0 0 1 .13.031c-.166.56-.323 1.116-.463 1.665a33.849 33.849 0 0 0-.547 2.555 3.9 3.9 0 0 0-.2-.39c-.58-1.012-.914-1.642-1.16-2.08.315-.24 1.679-1.755 2.24-1.781zm13.394.01c.562.027 1.926 1.543 2.24 1.783-.246.438-.58 1.068-1.16 2.08a4.428 4.428 0 0 0-.163.309 32.354 32.354 0 0 0-.562-2.49 40.579 40.579 0 0 0-.482-1.652.216.216 0 0 1 .127-.03z"/></g>
+      <text x="130" y="295" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="15" fill="#c9dcf5">Java</text>
+    </g>
+    <g>
+      <rect x="190" y="274" width="98" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#7ab6ff" stroke-opacity="0.32"/>
+      <g transform="translate(204,282) scale(0.667)"><path fill="#A97BFF" d="M24 24H0V0h24L12 12Z"/></g>
+      <text x="228" y="295" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="15" fill="#c9dcf5">Kotlin</text>
+    </g>
+    <g>
+      <rect x="298" y="274" width="182" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#7ab6ff" stroke-opacity="0.32"/>
+      <g transform="translate(312,282) scale(0.667)"><path fill="#6FA8FF" d="M12.135.003a2.577 2.577 0 0 0-1.42.344L2.55 5.06a2.577 2.577 0 0 0-.953.967l3.957 2.17a1.765 1.765 0 0 1 .603-.588l4.951-2.86a1.761 1.761 0 0 1 1.76 0l4.951 2.86a1.753 1.753 0 0 1 .526.46l3.921-2.265a2.577 2.577 0 0 0-.816-.744L13.291.347a2.577 2.577 0 0 0-1.152-.34Zm-.145 4.912a1.36 1.36 0 0 0-.68.182L6.36 7.953a1.345 1.345 0 0 0-.454.435l1.92 1.055a1.05 1.05 0 0 1 .31-.275l3.34-1.928a1.054 1.054 0 0 1 1.051 0l3.336 1.928a1.066 1.066 0 0 1 .238.199l.018-.01-.002-.002 1.877-1.08a1.353 1.353 0 0 0-.373-.322l-4.95-2.86a1.357 1.357 0 0 0-.68-.178Zm10.432 1.149-3.92 2.26a1.757 1.757 0 0 1 .2.812v5.715c0 .627-.332 1.21-.88 1.528l-4.95 2.86a1.761 1.761 0 0 1-.64.214v4.524a2.577 2.577 0 0 0 1.059-.313l8.162-4.713a2.577 2.577 0 0 0 1.289-2.23V7.297a2.577 2.577 0 0 0-.318-1.228Zm-20.937.238a2.577 2.577 0 0 0-.227.99v9.43c0 .918.491 1.767 1.293 2.229l8.162 4.713a2.57 2.57 0 0 0 1.225.336v-4.531a1.761 1.761 0 0 1-.833-.235L6.156 16.38a1.765 1.765 0 0 1-.877-1.528V9.136a1.776 1.776 0 0 1 .131-.676Zm16.67 2.223-1.89 1.092a1.058 1.058 0 0 1 .124.46v3.856c0 .378-.2.72-.526.907l-3.336 1.93a1.04 1.04 0 0 1-.295.107v2.17c.152-.027.304-.078.44-.157l4.949-2.859a1.36 1.36 0 0 0 .68-1.18V9.136a1.36 1.36 0 0 0-.147-.607Zm-12.387.13a1.36 1.36 0 0 0-.088.481v5.715a1.36 1.36 0 0 0 .68 1.18l4.95 2.86c.194.112.412.166.627.177v-2.174a1.054 1.054 0 0 1-.46-.123L8.14 14.843a1.054 1.054 0 0 1-.532-.908v-3.853a.99.99 0 0 1 .077-.38l-.034-.013z"/></g>
+      <text x="336" y="295" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="15" fill="#c9dcf5">Jetpack Compose</text>
+    </g>
+    <g>
+      <rect x="490" y="274" width="112" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#7ab6ff" stroke-opacity="0.32"/>
+      <g transform="translate(504,282) scale(0.667)"><path fill="#7BE0A0" d="M18.4395 5.5586c-.675 1.1664-1.352 2.3318-2.0274 3.498-.0366-.0155-.0742-.0286-.1113-.043-1.8249-.6957-3.484-.8-4.42-.787-1.8551.0185-3.3544.4643-4.2597.8203-.084-.1494-1.7526-3.021-2.0215-3.4864a1.1451 1.1451 0 0 0-.1406-.1914c-.3312-.364-.9054-.4859-1.379-.203-.475.282-.7136.9361-.3886 1.5019 1.9466 3.3696-.0966-.2158 1.9473 3.3593.0172.031-.4946.2642-1.3926 1.0177C2.8987 12.176.452 14.772 0 18.9902h24c-.119-1.1108-.3686-2.099-.7461-3.0683-.7438-1.9118-1.8435-3.2928-2.7402-4.1836a12.1048 12.1048 0 0 0-2.1309-1.6875c.6594-1.122 1.312-2.2559 1.9649-3.3848.2077-.3615.1886-.7956-.0079-1.1191a1.1001 1.1001 0 0 0-.8515-.5332c-.5225-.0536-.9392.3128-1.0488.5449zm-.0391 8.461c.3944.5926.324 1.3306-.1563 1.6503-.4799.3197-1.188.0985-1.582-.4941-.3944-.5927-.324-1.3307.1563-1.6504.4727-.315 1.1812-.1086 1.582.4941zM7.207 13.5273c.4803.3197.5506 1.0577.1563 1.6504-.394.5926-1.1038.8138-1.584.4941-.48-.3197-.5503-1.0577-.1563-1.6504.4008-.6021 1.1087-.8106 1.584-.4941z"/></g>
+      <text x="528" y="295" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="15" fill="#c9dcf5">Android</text>
+    </g>
+    <g>
+      <rect x="612" y="274" width="108" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#7ab6ff" stroke-opacity="0.32"/>
+      <g transform="translate(626,282) scale(0.667)"><path fill="#54C5F8" d="M14.314 0L2.3 12 6 15.7 21.684.013h-7.357zm.014 11.072L7.857 17.53l6.47 6.47H21.7l-6.46-6.468 6.46-6.46h-7.37z"/></g>
+      <text x="650" y="295" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="15" fill="#c9dcf5">Flutter</text>
+    </g>
+  </g>
 </svg>
