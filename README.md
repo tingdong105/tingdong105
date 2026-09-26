@@ -4,16 +4,10 @@
 </picture>
 
 <div align="center">
-
-### 一个超级懒的二次元开发者 ❀
-
-写 Android，也写点 Flutter<br>
-平时听歌、睡觉、瞎折腾
-
-<br>
-
-[![BLOG](https://img.shields.io/badge/BLOG-freelucky.net-7aa2f7?style=for-the-badge&logo=rss&logoColor=white)](https://freelucky.net)
-[![GITHUB](https://img.shields.io/badge/GITHUB-tingdong105-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tingdong105)
+  
+### 听冬酱
+一个超级懒的二次元开发者<br>
+听歌、睡觉、发呆、写代码、玩玩小AI
 
 <br>
 
